@@ -418,7 +418,15 @@
     <h3>CTC Tool</h3>
         <a id="PE-CTC" name="PE-CTC"></a>
         <ul>
-            <li></li>
+            <li>
+                Now CTC will FIRST internally clear any allocated route when
+                the dispatcher brings the signal direction lever back to
+                Signals Normal (all stop, center position), the signal direction
+                indicators (typically already) indicating Signals normal, and then presses
+                the code button.  This will fix possible hardware problems with
+                field equipment missing occupancy clear messages, or alternate trains sneaking
+                into an already cleared route for another train, etc.
+            </li>
         </ul>
 
     <h3>DecoderPro</h3>
